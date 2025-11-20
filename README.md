@@ -16,3 +16,23 @@ git log --oneline --graph --decorate --all
 
 # Para integrar cambios en tu rama actual (por ejemplo main)
 git pull origin main
+
+
+cd 
+reto5-gitlab
+
+echo "<!doctype html><html><body><h1>Reto 5 — Demo</h1></body></html>" > index.html
+
+git status
+# Salida:
+#   new file: index.html
+
+git add index.html README.md
+
+git commit -m "Agregar index.html y actualizar README"
+
+git push origin main
+
+
+
+
