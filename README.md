@@ -57,4 +57,7 @@ git switch -c pruebas
 # alternativamente
 # git checkout -b pruebas
 
-
+echo "Prueba: validar que index.html se muestre correctamente" > test_instructions.txt
+git add test_instructions.txt
+git commit -m "test: agregar plan de pruebas básico"
+git push -u origin pruebas
