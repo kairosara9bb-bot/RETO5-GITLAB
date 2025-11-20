@@ -50,9 +50,5 @@ git log --oneline — ver historial compacto.
 
 git remote -v — ver URL remotas.
 
-#F) SUBE LOS CAMBIOS AL REPOSITORIO REMOTO
-GitLab → Profile → Preferences → Access Tokens (o Settings → Access Tokens).
-
-Genera token con scopes api y write_repository o al menos write_repository.
 
 
