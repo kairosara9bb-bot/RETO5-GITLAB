@@ -77,3 +77,9 @@ git commit -m "Resolver conflicto y merge pruebas -> main"
 # Subir main actualizado
 git push origin main
 
+<<<<<<< HEAD
+(versión en main)
+=======
+(versión en pruebas)
+>>>>>>> origin/pruebas
+
