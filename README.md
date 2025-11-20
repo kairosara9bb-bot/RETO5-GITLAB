@@ -83,3 +83,7 @@ git push origin main
 (versión en pruebas)
 >>>>>>> origin/pruebas
 
+# Reto 5 — GitLab
+Repositorio de ejemplo para el Reto 5. Contiene:
+- index.html (demo)
+- test_instructions.txt (plan de pruebas)
