@@ -50,5 +50,11 @@ git log --oneline — ver historial compacto.
 
 git remote -v — ver URL remotas.
 
+#PUNTO DE PRUEBAS
+
+# Crear y cambiar a la rama pruebas
+git switch -c pruebas
+# alternativamente
+# git checkout -b pruebas
 
 
