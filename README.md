@@ -61,3 +61,19 @@ echo "Prueba: validar que index.html se muestre correctamente" > test_instructio
 git add test_instructions.txt
 git commit -m "test: agregar plan de pruebas básico"
 git push -u origin pruebas
+
+
+# Asegúrate de estar en main
+git checkout main
+# Actualiza
+git pull origin main
+# Trae la rama pruebas
+git fetch origin
+git merge origin/pruebas
+# Resolver conflictos (si aparece <<<<<<< )
+# Editar archivos conflictivos, luego:
+git add archivo_resuelto
+git commit -m "Resolver conflicto y merge pruebas -> main"
+# Subir main actualizado
+git push origin main
+
