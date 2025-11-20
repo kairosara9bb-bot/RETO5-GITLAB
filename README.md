@@ -34,5 +34,20 @@ git commit -m "Agregar index.html y actualizar README"
 git push origin main
 
 
+git status — estado de archivos.
+
+git add <archivo> — añadir al staging.
+
+git commit -m "mensaje" — guardar en historial local.
+
+git push origin <rama> — subir al remoto.
+
+git pull origin <rama> — traer y unir cambios del remoto.
+
+git fetch origin — traer sin mezclar.
+
+git log --oneline — ver historial compacto.
+
+git remote -v — ver URL remotas.
 
 
