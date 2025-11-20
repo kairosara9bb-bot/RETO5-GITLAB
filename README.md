@@ -85,5 +85,32 @@ git push origin main
 
 # Reto 5 — GitLab
 Repositorio de ejemplo para el Reto 5. Contiene:
-- index.html (demo)
-- test_instructions.txt (plan de pruebas)
+index.html (demo)
+test_instructions.txt (plan de pruebas)
+
+#Secuencia de comandos completa (ejemplo)
+
+# configurar usuario 
+git config --global user.name "JAIRO SARA"
+git config --global user.email "kairo.sara9bb@gmail.com"
+
+# clonar
+git clone https://gitlab.com/tu_usuario/reto5-gitlab.git
+cd reto5-gitlab
+
+# crear rama pruebas y trabajar
+git switch -c pruebas
+echo "Prueba: validar index.html" > test_instructions.txt
+git add .
+git commit -m "test: agregar plan de pruebas"
+git push -u origin pruebas
+
+# volver a main y traer cambios
+git checkout main
+git pull origin main
+
+# crear MR desde la web, revisar y mergear
+# opcional: merge local
+git merge pruebas
+git push origin main
+
